@@ -98,6 +98,19 @@ main{
 
     cursor: pointer;
 }
+.circulo.activo {
+    width: 2dvh;
+    height: 2dvh;
+    background-color: gray;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.imagen.saliente {
+    left: -100%;
+}
+
 .imagen {
     position: absolute;
     width: 100%;
