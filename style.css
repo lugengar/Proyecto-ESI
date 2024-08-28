@@ -48,7 +48,11 @@ input[type="submit"] {
     font-weight: 700;
     font-style: normal;
 }
-
+main{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+}
 
 .container {
     left: 0;
@@ -141,7 +145,7 @@ input[type="submit"] {
 .texto1 {
     box-shadow: 0 1dvh 2dvh 0.5dvh rgba(0, 0, 0, 0.2);
     font-size: 5dvh;
-    background-color: #e81f76;
+    background-color: #007a1f;
     color: black;
     display: inline;
     padding: 0.2dvh 1dvh;
@@ -151,7 +155,7 @@ input[type="submit"] {
 .texto2 {
     box-shadow: 0 1dvh 2dvh 0.5dvh rgba(0, 0, 0, 0.2);
     font-size: 5dvh;
-    background-color: #00aec3;
+    background-color: #02c7c7;
     color: black;
     display: inline;
     padding: 0.2dvh 1dvh;
