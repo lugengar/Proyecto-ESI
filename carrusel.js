@@ -6,8 +6,9 @@ const circulos = document.querySelectorAll('.circulo');
 let currentIndex = 0;
 let intervalId;
 let click = false;
+
 function changeImage(index) {
-    const imagenActiva = document.querySelector('.imagen.activo');
+    const imagenActiva = document.querySelectorAll('.imagen.activo');
     const nuevaImagen = imagenes[index];
     circulos.forEach(circulo => circulo.classList.remove('activo'));
     circulos[index].classList.add('activo');

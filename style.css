@@ -117,7 +117,7 @@ main{
     height: 100%;
     top: 0;
     left: 100%;
-    transition: left 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background-size: cover;
     background-position: center;
     opacity: 0;
